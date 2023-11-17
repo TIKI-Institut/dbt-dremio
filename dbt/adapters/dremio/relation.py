@@ -24,9 +24,9 @@ from typing import Optional, Tuple, Iterator
 
 @dataclass
 class DremioQuotePolicy(Policy):
-    database: bool = True
-    schema: bool = True
-    identifier: bool = True
+    database: bool = False
+    schema: bool = False
+    identifier: bool = False
 
 
 @dataclass
